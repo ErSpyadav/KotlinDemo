@@ -742,6 +742,7 @@ id chains
 id checkbox
 id checked
 id chronometer
+id clickMe
 id collapseActionView
 id content
 id contentPanel
@@ -761,6 +762,7 @@ id forever
 id gone
 id group_divider
 id groups
+id helloText
 id home
 id homeAsUp
 id icon
