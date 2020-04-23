@@ -44,6 +44,12 @@ fun main(args : Array<String>){
     for(ch in name.indices) print(name[ch]+",")
 
 
+    print("***************Range and Progression****************")
+    for(i in 1 until 13 step 2)
+        print(i)
+
+
+
 
 
 }
