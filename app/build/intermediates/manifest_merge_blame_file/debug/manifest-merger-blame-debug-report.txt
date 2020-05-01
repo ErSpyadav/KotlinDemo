@@ -11,7 +11,7 @@
 9-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:5:5-19:19
+11-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:5:5-36:19
 12        android:allowBackup="true"
 12-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -25,22 +25,67 @@
 17-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
 18-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:10:9-35
-19        android:theme="@style/AppTheme" >
-19-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:11:9-40
-20        <activity android:name="demo.expresso.kotlintest.MainActivity" >
-20-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:12:9-18:20
-20-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:12:19-47
-21            <intent-filter>
-21-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:13:13-17:29
-22                <action android:name="android.intent.action.MAIN" />
-22-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:14:17-69
-22-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:14:25-66
-23
-24                <category android:name="android.intent.category.LAUNCHER" />
-24-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:16:17-77
-24-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:16:27-74
-25            </intent-filter>
-26        </activity>
-27    </application>
-28
-29</manifest>
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity android:name="demo.expresso.kotlintest.coroutinedemo.LifeCycleScopeActivity" >
+21-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:12:9-18:20
+21-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:12:19-71
+22            <intent-filter>
+22-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:13:13-17:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:14:17-69
+23-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:14:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:16:17-77
+25-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:16:27-74
+26            </intent-filter>
+27        </activity>
+28        <activity
+28-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:19:9-28:20
+29            android:name="demo.expresso.kotlintest.coroutinedemo.MainActivity2"
+29-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:20:13-56
+30            android:label="@string/title_activity_view_model"
+30-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:21:13-62
+31            android:theme="@style/AppTheme.NoActionBar" >
+31-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:22:13-56
+32            <intent-filter>
+32-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:13:13-17:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:14:17-69
+33-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:14:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:16:17-77
+35-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:16:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity android:name="demo.expresso.kotlintest.coroutinedemo.UnstructureActivity" >
+38-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:29:9-35:20
+38-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:29:19-68
+39            <intent-filter>
+39-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:13:13-17:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:14:17-69
+40-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:14:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:16:17-77
+42-->C:\Users\SarayuYadaw\Documents\SampleApp2020\KotlinTest\app\src\main\AndroidManifest.xml:16:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <provider
+46-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\SarayuYadaw\.gradle\caches\transforms-2\files-2.1\e4d27f302bebf6d0f41425b9fbb5fb42\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+47            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\SarayuYadaw\.gradle\caches\transforms-2\files-2.1\e4d27f302bebf6d0f41425b9fbb5fb42\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+48            android:authorities="demo.expresso.kotlintest.lifecycle-process"
+48-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\SarayuYadaw\.gradle\caches\transforms-2\files-2.1\e4d27f302bebf6d0f41425b9fbb5fb42\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+49            android:exported="false"
+49-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\SarayuYadaw\.gradle\caches\transforms-2\files-2.1\e4d27f302bebf6d0f41425b9fbb5fb42\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+50            android:multiprocess="true" />
+50-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\SarayuYadaw\.gradle\caches\transforms-2\files-2.1\e4d27f302bebf6d0f41425b9fbb5fb42\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+51    </application>
+52
+53</manifest>
